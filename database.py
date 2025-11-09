@@ -2,7 +2,7 @@ import sqlite3
 
 class IssuesDB:
     def __init__(self, path="issues.db"):
-        self.connection = sqlite3.connect(path)
+        self.connection = sqlite3.connect(path, check_same_thread=False)
         self.check_exist()
 
     def check_exist(self):
