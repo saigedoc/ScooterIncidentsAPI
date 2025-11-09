@@ -5,6 +5,7 @@
 ```bash
 git clone https://github.com/saigedoc/ScooterIncidentsAPI.git
 cd ScooterIncidentsAPI
+pip install -r requirements.txt
 python main.py
 ```
 
