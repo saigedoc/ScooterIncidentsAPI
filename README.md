@@ -16,7 +16,7 @@ end_points:
 3. /put - Изменение статуса инцидента с выбранным id. Обязательные аргументы: id(int), status["wait", "in_work", "fixed"]
 
 примеры:
-127.0.0.1:8000/post?description=Моё описание инцидента&status=wait&source=operator
-127.0.0.1:8000/get?status=wait
-127.0.0.1:8000/put?id=1&status=in_work
-127.0.0.1:8000/get?status=in_work
+1. 127.0.0.1:8000/post?description=Моё описание инцидента&status=wait&source=operator
+2. 127.0.0.1:8000/get?status=wait
+3. 127.0.0.1:8000/put?id=1&status=in_work
+4. 127.0.0.1:8000/get?status=in_work
